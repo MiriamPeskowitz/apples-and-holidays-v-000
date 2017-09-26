@@ -16,9 +16,8 @@ holiday_supplies = {
   }
 }
 
-def hello
-  #some code here
-  puts 'hello'
+def hello(supplies)
+
   holiday_supplies[:summer][:fourth_of_july][1]
   binding.pry
 end
